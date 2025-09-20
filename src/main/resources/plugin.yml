@@ -1,0 +1,22 @@
+name: MagikMuda
+version: '1.0.1'
+main: dev.pranavc.magikMuda.MagikMuda
+api-version: '1.21'
+
+commands:
+  zawarudo:
+    description: ZA WARUDO! Stop time for 5 seconds.
+    usage: /zawarudo
+    permission: magikmuda.zawarudo
+  strike:
+    description: Strike lightning at your target or empower yourself.
+    usage: /strike
+    permission: magikmuda.strike
+
+permissions:
+  magikmuda.zawarudo:
+    description: Allows use of /zawarudo
+    default: op
+  magikmuda.strike:
+    description: Allows use of /strike
+    default: true
